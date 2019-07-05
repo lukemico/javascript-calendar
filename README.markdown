@@ -56,11 +56,10 @@ In your terminal, 'cd' or change directory into whichever directory you wish to 
 
 -   Open [http://localhost:8000](http://localhost:8000) to view the application in your browser.
 
-```
-
-You should now be directed to a locally hosted version of the Calendarr exercise.
+You should now be directed to a locally hosted version of the Calendar exercise.
 
 ## Built With
+
 [HTML](https://www.w3.org/html/) - the markup that pulls together code to render calculator.
 
 [JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript) - to handle the data and its inputs/ outputs.
@@ -72,11 +71,17 @@ You should now be directed to a locally hosted version of the Calendarr exercise
 [Materilize](https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css) - for the styling of the calendar.
 
 ## Versioning
+
 GitHub used for versioning. For the versions available, see the tags on this repository.
 
 ## Author/s
+
 Luke Mico
 
 ## License
+
 Source code distributed under the MIT license. Text, imagery and other assets copyright resource11, all rights reserved.
+
+```
+
 ```
