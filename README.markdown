@@ -1,6 +1,6 @@
 # Responsive Calendar with Events
 
-A Calendar built using JavaScript with custom event list feature, and Materialize responsive CSS framework.
+A calendar built using JavaScript with custom event list feature, and Materialize responsive CSS framework.
 
 ## Project Outline
 
@@ -18,26 +18,26 @@ These instructions will get a copy of the project up and running on your local m
 
 Ensure that you have the following installed on your local machine before installation:
 
-Install Git [Git](https://git-scm.com/downloads) (latest version)  
-Install Python [Python](https://www.python.org/downloads/) (latest version)
+-   Install Git [Git](https://git-scm.com/downloads) (latest version)  
+-   Install Python [Python](https://www.python.org/downloads/) (latest version)
 
 ## Installation
 
 Clone the repo:
 
 ```
-git clone https://github.com/lukemico/javascript-calendar.git
+  git clone https://github.com/lukemico/javascript-calendar.git
 
-cd javascript-calendar
+  cd javascript-calendar
 ```
 
 then follow instructions in the Running a Local version section.
 
 ## Steps for running a Local version
 
-To start the server locally using Python SimpleServer, run the following via the Command Line:
+To start the server locally using Python SimpleServer, run the following via the Command line:
 
-In your terminal, 'cd' or change directory into whichever directory you wish to have accessible via browsers and HTTP.
+-   In your terminal, 'cd' or change directory into whichever directory you wish to have accessible via browsers and HTTP.
 
 ```
   cd javascript-calendar  (to ensure you are in the correct folder)
