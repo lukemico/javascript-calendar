@@ -1,10 +1,10 @@
 # Responsive Calendar with Events
 
-Materialize calendar with custom event list.
+A Calendar built using JavaScript with custom event list feature, and Materialize responsive CSS framework.
 
 ## Project Outline
 
-This project involves 2 parts -
+This exercise involves 2 parts -
 
 1. The first task is to develop a calendar using JavaScript that renders days, weeks and months in a responsive format.
 
@@ -12,11 +12,11 @@ This project involves 2 parts -
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
 
-Ensure that you have the following installed on your local machine before installation of :
+Ensure that you have the following installed on your local machine before installation:
 
 Install Git [Git](https://git-scm.com/downloads) (latest version)  
 Install Python [Python](https://www.python.org/downloads/) (latest version)
@@ -31,7 +31,7 @@ git clone https://github.com/lukemico/javascript-calendar.git
 cd javascript-calendar
 ```
 
-then follow instructions in the Running section.
+then follow instructions in the Running a Local version section.
 
 ## Steps for running a Local version
 
@@ -47,12 +47,13 @@ In your terminal, 'cd' or change directory into whichever directory you wish to 
 
 ```
 	$ python -m SimpleHTTPServer [port]
-
 ```
 
 -   After you hit the Enter key, you should see the following message:
 
-        	Serving HTTP on 0.0.0.0 port 8000 ...
+```
+  Serving HTTP on 0.0.0.0 port 8000 ...
+```
 
 -   Open [http://localhost:8000](http://localhost:8000) to view the application in your browser.
 
@@ -68,7 +69,7 @@ You should now be directed to a locally hosted version of the Calendar exercise.
 
 [CSS](https://www.w3.org/Style/CSS/) - for the styling of the calculator.
 
-[Materilize](https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css) - for the styling of the calendar.
+[Materialize](https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css) - for the styling of the calendar.
 
 ## Versioning
 
