@@ -40,13 +40,13 @@ To start the server locally using Python SimpleServer, run the following via the
 In your terminal, 'cd' or change directory into whichever directory you wish to have accessible via browsers and HTTP.
 
 ```
-	cd javascript-calendar  (to ensure you are in the correct folder)
+  cd javascript-calendar  (to ensure you are in the correct folder)
 ```
 
 -   To start a HTTP server on port 8000 (default port), type in Command Line:
 
 ```
-	$ python -m SimpleHTTPServer [port]
+  $ python -m SimpleHTTPServer [port]
 ```
 
 -   After you hit the Enter key, you should see the following message:
