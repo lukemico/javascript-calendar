@@ -1,3 +1,7 @@
+/*--------------------------------------------------------------------------
+	1. Body
+--------------------------------------------------------------------------*/
+
 body {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
@@ -8,6 +12,10 @@ h4,
 h5 {
 	font-weight: 300 !important;
 }
+
+/*--------------------------------------------------------------------------
+	2. Calendar
+--------------------------------------------------------------------------*/
 
 .calendar-wrapper {
 	height: auto;
@@ -64,12 +72,16 @@ h5 {
 	overflow: hidden;
 }
 
+/*--------------------------------------------------------------------------
+	3. Form
+--------------------------------------------------------------------------*/
+
 .addForm {
 	position: absolute;
 	top: 100%;
 	width: 100%;
 	height: 100%;
-	background-color: #4b5889 !important;
+	background-color: #62929e !important;
 	transition: top 0.5s cubic-bezier(1, 0, 0, 1);
 	padding: 0 5px 0 5px;
 }
@@ -110,6 +122,10 @@ h5 {
 	margin-bottom: 2rem;
 }
 
+/*--------------------------------------------------------------------------
+	4. Sidebar
+--------------------------------------------------------------------------*/
+
 .sidebar-wrapper {
 	color: #fff;
 	background-color: #62929e !important;
@@ -139,6 +155,10 @@ h5 {
 	font-size: 1.2rem;
 	padding: 15px 6% 15px 12%;
 }
+
+/*--------------------------------------------------------------------------
+	5. Event Card
+--------------------------------------------------------------------------*/
 
 .eventCard {
 	background-color: #fff;
@@ -233,12 +253,16 @@ h5 {
 	text-align: center;
 }
 
+/*--------------------------------------------------------------------------
+	6. Navigation
+--------------------------------------------------------------------------*/
+
 .prev-button {
 	position: absolute;
 	cursor: pointer;
 	left: 0%;
 	top: 35%;
-	color: grey !important;
+	color: #fdfdff !important;
 }
 
 .prev-button i {
@@ -250,15 +274,19 @@ h5 {
 	cursor: pointer;
 	right: 0%;
 	top: 35%;
-	color: grey !important;
+	color: #fdfdff !important;
 }
 
 .next-button i {
 	font-size: 4em;
 }
 
+/*--------------------------------------------------------------------------
+	7. Add Event
+--------------------------------------------------------------------------*/
+
 .addEvent {
-	box-shadow: 0 5px 15px #fdfdff;
+	/* box-shadow: 0 5px 15px #393d3f; */
 	background-color: #393d3f;
 	padding: 10px;
 	padding-left: 3em;
@@ -271,8 +299,12 @@ h5 {
 
 .addEvent:hover {
 	transition: box-shadow 0.5s;
-	box-shadow: 0 4px 25px rgb(57, 168, 228);
+	box-shadow: 0 4px 25px #fdfdff;
 }
+
+/*--------------------------------------------------------------------------
+	8. Mobile
+--------------------------------------------------------------------------*/
 
 .mobile-header {
 	padding: 0;
