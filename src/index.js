@@ -1,3 +1,4 @@
+// declare initial Calendar variables
 var calendar = document.getElementById("calendar-table");
 var gridTable = document.getElementById("table-body");
 var currentDate = new Date();
@@ -5,8 +6,10 @@ var selectedDate = currentDate;
 var selectedDayBlock = null;
 var globalEventObj = {};
 
+// declare Sidebar variable
 var sidebar = document.getElementById("sidebar");
 
+// develop a function to create a Calendar, defining date, month, year & parameters.
 function createCalendar(date, side) {
 	var currentDate = date;
 	var startDate = new Date(
@@ -132,6 +135,7 @@ function createCalendar(date, side) {
 	);
 }
 
+// build out the Calendar
 createCalendar(currentDate);
 
 var todayDayName = document.getElementById("todayDayName");
@@ -255,12 +259,15 @@ gridTable.onclick = function(e) {
 	});
 };
 
+/* This code initiates the Event Add/Cancel tab */
 var changeFormButton = document.getElementById("changeFormButton");
 var addForm = document.getElementById("addForm");
 changeFormButton.onclick = function(e) {
 	addForm.style.top = 0;
 };
 
+
+/* This code cancels the creation of an event */
 var cancelAdd = document.getElementById("cancelAdd");
 cancelAdd.onclick = function(e) {
 	addForm.style.top = "100%";
@@ -274,6 +281,7 @@ cancelAdd.onclick = function(e) {
 	}
 };
 
+/* This code enables the creation of an event */
 var addEventButton = document.getElementById("addEventButton");
 addEventButton.onclick = function(e) {
 	let title = document.getElementById("eventTitleInput").value.trim();
